@@ -1,0 +1,20 @@
+.realtors {
+    background: $color-secondary;
+}
+.features {
+    background: $color-grey-light-1;
+}
+.story {
+    &__pictures {
+        background: $color-grey-light-2;
+    }
+    &__content {
+        background: $color-grey-dark-1;
+    }
+}
+.homes {
+    background: $color-primary;
+}
+.gallery {
+    background: $color-grey-dark-2;
+}
