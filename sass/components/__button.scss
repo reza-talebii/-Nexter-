@@ -1,5 +1,11 @@
 .btn {
     background: $color-primary;
     color: $color-grey-light-1;
-    padding: 1rem 2rem;
+    padding: 1.5rem 3rem;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
