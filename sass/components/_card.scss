@@ -13,10 +13,21 @@
         color: $color-primary;
         grid-column: 2/-1;
         grid-row: 1/2;
+        align-self: flex-start;
         justify-self: end;
+        background: transparent;
+        outline: none;
+        border: none;
         margin: 1rem;
         font-size: 2.5rem;
+        text-shadow: 0 0 3rem rgba($color: #000, $alpha: 0.6);
+        cursor: pointer;
+        &:focus {
+            -webkit-animation: card-like-click 0.5s 3;
+            animation: card-like-click 0.5s 3;
+        }
     }
+
     &__title {
         grid-column: 1/-1;
         grid-row: 1/2;
