@@ -3,8 +3,12 @@
     grid-column: col-start 7 / full-end;
 }
 .features {
-    background: $color-grey-light-1;
     grid-column: center-start/center-end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 15rem 0;
+    gap: 2rem;
 }
 .story {
     &__pictures {
