@@ -12,14 +12,22 @@ body {
     font-weight: 400;
 }
 .heading-1 {
+    @extend %heading;
 }
 .heading-2 {
+    @extend %heading;
+    font-size: 4rem;
+    font-style: italic;
 }
 .heading-3 {
+    @extend %heading;
+    font-size: 1.6rem;
+    color: $color-primary;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 .heading-4 {
-}
-.heading-4 {
+    @extend %heading;
     font-size: 1.9rem;
     color: $color-grey-dark-1;
     &--light {

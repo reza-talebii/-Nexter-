@@ -15,10 +15,13 @@
     &__pictures {
         background: $color-grey-light-2;
         grid-column: full-start / col-end 4;
+        background: #f9f7f6;
     }
     &__content {
-        background: $color-grey-dark-1;
         grid-column: col-start 5 / full-end;
+        padding: 5rem 8vw;
+        display: grid;
+        align-content: center;
     }
 }
 .homes {
