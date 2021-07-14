@@ -1,6 +1,5 @@
 .feature {
     display: grid;
-    grid-template-columns: -webkit-min-content 1fr;
     grid-template-columns: min-content 1fr;
     gap: 2rem;
     &__icon {

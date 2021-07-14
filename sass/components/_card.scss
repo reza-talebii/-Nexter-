@@ -2,7 +2,7 @@
     display: grid;
     grid-row-gap: 5rem;
     grid-template-columns: repeat(2, 1fr);
-    background: #f9f7f6;
+    background: $color-grey-light-1;
     &__img {
         width: 100%;
         height: auto;
@@ -23,7 +23,6 @@
         text-shadow: 0 0 3rem rgba($color: #000, $alpha: 0.6);
         cursor: pointer;
         &:focus {
-            -webkit-animation: card-like-click 0.5s 3;
             animation: card-like-click 0.5s 3;
         }
     }

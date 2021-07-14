@@ -23,6 +23,8 @@
         &::before {
             transform: translateY(-1.5rem);
         }
+
+        // **************responsive*************
         @include respond(md) {
             margin: 0;
             margin-right: 3rem;

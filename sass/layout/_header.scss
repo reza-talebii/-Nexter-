@@ -45,13 +45,14 @@
         max-height: 2.5rem;
         max-width: 100%;
         justify-self: center;
-        -webkit-filter: brightness(70%);
         filter: brightness(70%);
     }
     &__btn {
         justify-self: start;
         align-self: flex-start;
     }
+
+    // **************responsive*************
     @include respond(md) {
         grid-column: full-start/full-end;
     }

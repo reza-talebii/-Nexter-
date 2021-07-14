@@ -34,6 +34,8 @@
         text-align: center;
         width: 70%;
         margin: 5rem auto 0;
+
+        // **************responsive*************
         @include respond(md) {
             width: 100%;
         }

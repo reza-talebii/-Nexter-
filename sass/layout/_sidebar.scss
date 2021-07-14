@@ -5,6 +5,8 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+
+    // **************responsive*************
     @include respond(md) {
         grid-area: 1/1/2/-1;
         justify-content: flex-end;
