@@ -1,5 +1,8 @@
 html {
     font-size: 62.5%; //1rem = 10px
+    @include respond(xl) {
+        font-size: 52.5%;
+    }
 }
 body {
     color: $color-grey-dark-2;
