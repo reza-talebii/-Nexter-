@@ -23,5 +23,7 @@
         &::before {
             transform: translateY(-1.5rem);
         }
+        @include respond(md) {
+        }
     }
 }
