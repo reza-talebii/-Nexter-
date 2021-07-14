@@ -1,7 +1,7 @@
 .navigation {
     &__btn {
         margin-top: 3rem;
-        background: #fff;
+        background: $color-white;
         border-radius: 0;
         border: none;
         outline: none;
@@ -11,7 +11,7 @@
         &::after,
         &::before {
             content: '';
-            background: #fff;
+            background: $color-white;
             display: block;
             position: absolute;
             width: 100%;
