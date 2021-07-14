@@ -1,14 +1,30 @@
 .realtors {
     background: $color-secondary;
     grid-column: col-start 7 / full-end;
+    padding: 5rem 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    h3 {
+        justify-self: center;
+        align-self: end;
+    }
 
     &__list {
+        display: grid;
+        grid-template-columns: min-content max-content;
+        grid-column-gap: 2rem;
+        grid-row-gap: 5vh;
     }
     &__img {
+        height: 7rem;
+        border-radius: 50%;
     }
     &__texts {
+        align-self: center;
     }
     &__sold {
+        color: $color-grey-light-2;
     }
 }
 .features {
