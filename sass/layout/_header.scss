@@ -52,4 +52,10 @@
         justify-self: start;
         align-self: flex-start;
     }
+    @include respond(md) {
+        grid-column: full-start/full-end;
+    }
+    @include respond(sm) {
+        padding: 3rem;
+    }
 }
