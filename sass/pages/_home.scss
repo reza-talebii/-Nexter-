@@ -166,4 +166,10 @@
             grid-row: 6/-1;
         }
     }
+    @include respond(md) {
+        gap: 1rem;
+    }
+    @include respond(sm) {
+        gap: 0.5rem;
+    }
 }
