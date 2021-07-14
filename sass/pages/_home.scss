@@ -1,6 +1,15 @@
 .realtors {
     background: $color-secondary;
     grid-column: col-start 7 / full-end;
+
+    &__list {
+    }
+    &__img {
+    }
+    &__texts {
+    }
+    &__sold {
+    }
 }
 .features {
     grid-column: center-start/center-end;
