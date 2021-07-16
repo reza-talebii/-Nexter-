@@ -1,4 +1,11 @@
-<img src="media/images/logo.png" align="center" >
+
+ <p align="center">
+    <img
+      alt="logo"
+     src="media/images/logo.png"
+      width="400"
+    />
+</p>
 <br/>
 <h3>Company Web Site </h3>
 <h1>Css Grid Layout<h1> 
