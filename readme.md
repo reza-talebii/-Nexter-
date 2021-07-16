@@ -1,20 +1,23 @@
 <img src="media/images/logo.png" >
 <br/>
 <h3>Company Web Site </h3>
- <br>
 <h1>Css Grid Layout<h1> 
- <br>
-  <p>feuture project<p>
- <br>
+<h6>feuture project<h6>
  
   
- 
-1. Without using a framework
-    *useig modren css
-      *Css grid
-       *flexbox
-2. sass Folder structure
-3.The least media query
-4.Supports all browsers
-5.Codes minifier
+ <ul>
+  <li>1. Without using a framework
+    <li> *useig modren css<li>
+    <li> *Css grid<li>
+    <li>  *flexbox<li>
+  <li>
+    <li> sass Folder structure<li>
+     <li> .The least media query<li>
+     <li>.Supports all browsers<li>
+     <li>.Codes minifier<li>
+  
+   
+ </ul>
 
+   
+      
