@@ -1,13 +1,9 @@
 
  <p align="center">
-    <img
-      alt="logo"
-     src="media/images/logo.png"
-      width="400"
-    />
+    <img alt="logo" src="media/images/logo.png" width="400" />
 </p>
-<br/>
-<h3>Company Web Site </h3>
+
+<h3 align="center">Company Web Site </h3>
 <h1>Css Grid Layout<h1> 
 <h6>feuture project<h6>
  
