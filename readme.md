@@ -6,11 +6,11 @@
  
   
  <ol>
-  <li>Without using a framework<li>
-    <li> sass Folder structure<li>
-     <li> The least media query<li>
-     <li>Supports all browsers<li>
-     <li>Codes minifier<li>
+    <li>Without using a framework
+    <li>sass Folder structure
+    <li>The least media query
+    <li>Supports all browsers
+    <li>Codes minifier
  </ol>
 
    
