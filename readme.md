@@ -1,4 +1,4 @@
-<img src="media/images/logo.png"  style="text-align: center;" >
+<img src="media/images/logo.png" >
 <br/>
-<h3>Company Web Site </h3>
+<h3   style="text-align: center;">Company Web Site </h3>
 
